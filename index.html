@@ -31,20 +31,17 @@
         <hr>
 
         <section id="main_content">
-          <h1>
-<a name="snappi" class="anchor" href="#snappi"><span class="octicon octicon-link"></span></a>snappi</h1>
+          <p>Combine the power of <a href="http://en.wikipedia.org/wiki/Scratch_(programming_language">Scratch</a> with the affordability and fun of the <a href="http://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a> single-board computer.</p>
 
-<p>Combine the power of <a href="http://en.wikipedia.org/wiki/Scratch_(programming_language">Scratch</a> with the affordability and fun of the <a href="http://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a> single-board computer.</p>
-
-<p>I try to get this project off the ground. Plenty of things are already in place, like the fantastic <a href="http://snap.berkeley.edu/run">SNAP programming environment</a>, which is just like Scratch, only better :) If you haven't seen it, try it right now (click on the SNAP link).</p>
+<p>Plenty of things are already in place, like the fantastic <a href="http://snap.berkeley.edu/run">SNAP programming environment</a> (try it, click on the link!), which is just like Scratch, only better :).</p>
 
 <h2>
 <a name="for-now-we-need-help-in-the-following-areas" class="anchor" href="#for-now-we-need-help-in-the-following-areas"><span class="octicon octicon-link"></span></a>For now we need help in the following areas:</h2>
 
 <ol>
-<li><p>To help others in getting snappi up and running quickly we need to reduce dependencies. Currently the package <a href="https://code.google.com/p/webiopi/">webiopi</a> presents a REST-interface to the Pi and other single-board computers. This requires a separate python daemon to run. It would be great if someone came up with a way to cut out webiopi and use javascript directly to interface the Pi.</p></li>
-<li><p>Currently the SNAP-program is executed in the browser's JavaScript interpreter. This works as long as the browser is connected to the Pi. To enable 'untethered' operation (e.g. the Pi driving autonomously a Lego vehicle) snappi would need to run in the (e.g.) V8/node.js JavaScript interpreter as a stand-alone program on the Pi.</p></li>
-<li><p>Currently variables can be used to interface with the Pi and read/write channels on the Piface-Board. Maybe there is a better way to integrate the i/o possibilities in the SNAP domain.</p></li>
+<li><p>To help others in getting <strong>snappi</strong> up and running quickly we need to reduce dependencies. Currently the package <a href="https://code.google.com/p/webiopi/">webiopi</a> presents a REST-interface to the Pi and other single-board computers. This requires a separate python daemon to run. It would be great if someone came up with a way to cut out webiopi and use javascript directly to interface the Pi.</p></li>
+<li><p>Currently the SNAP-program is executed in the browser's JavaScript interpreter. This works as long as the browser is connected to the Pi. To enable 'untethered' operation (e.g. the Pi driving autonomously a Lego vehicle) <strong>snappi</strong> would need to run in the (e.g.) V8/node.js JavaScript interpreter as a stand-alone program on the Pi.</p></li>
+<li><p>Currently variables can be used to interface with the Pi and read/write channels on the Piface-Board. Maybe there is a better way to integrate the i/o possibilities with the SNAP language.</p></li>
 </ol><p>That's all folks! I would be gladly accepting pull requests or any help whatsoever. Questions? <a href="mailto:tom@snappi.net">tom@snappi.net</a></p>
         </section>
 
